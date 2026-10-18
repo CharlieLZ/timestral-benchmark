@@ -1,0 +1,299 @@
+{
+  "generatedAt": "2026-10-18T13:24:10.491Z",
+  "model": "mistralai/Timestral-209M",
+  "space": "mrfakename/timestral-209m",
+  "dataset": "M4 monthly, last 120 points of 8 series (public)",
+  "horizon": 12,
+  "season": 12,
+  "seriesRequested": 8,
+  "seriesScored": 8,
+  "meanMase": 0.5140142202266564,
+  "medianMase": 0.4406048906370378,
+  "meanRmse": 222.03299547528655,
+  "meanCoverage": 0.875,
+  "beatsSeasonalNaive": 7,
+  "latencyMs": {
+    "mean": 1767.0413854999997,
+    "median": 1152.8221460000004,
+    "p95": 3113.479125
+  },
+  "costPer1kCalls": [
+    {
+      "label": "Studio annual (6,000 credits)",
+      "usd": 106.5
+    },
+    {
+      "label": "Pro annual (2,400 credits)",
+      "usd": 132.91666666666666
+    },
+    {
+      "label": "Studio monthly (500 credits)",
+      "usd": 159.8
+    },
+    {
+      "label": "Starter monthly (20 credits)",
+      "usd": 495
+    },
+    {
+      "label": "Entry one-time pack (10 credits)",
+      "usd": 990
+    }
+  ],
+  "perSeries": [
+    {
+      "seriesId": "M1",
+      "mase": 0.4709101917613637,
+      "rmse": 611.1358491899715,
+      "coverage": 1,
+      "latencyMs": 4437.352792,
+      "took": "Took 1.93 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 7740.50537109375,
+          "median": 8669.662109375,
+          "high": 9609.68359375
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 7074.92138671875,
+          "median": 8302.763671875,
+          "high": 9579.5859375
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 5533.474609375,
+          "median": 6887.3896484375,
+          "high": 8289.291015625
+        }
+      ]
+    },
+    {
+      "seriesId": "M6",
+      "mase": 0.5070104351687389,
+      "rmse": 341.0905176575449,
+      "coverage": 0.9166666666666666,
+      "latencyMs": 3113.479125,
+      "took": "Took 0.27 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 11800.748046875,
+          "median": 11963.9609375,
+          "high": 12124.291015625
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 11724.083984375,
+          "median": 11955.2119140625,
+          "high": 12176.9931640625
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 11614.5908203125,
+          "median": 11905.1669921875,
+          "high": 12185.4765625
+        }
+      ]
+    },
+    {
+      "seriesId": "M9",
+      "mase": 0.21905769322066088,
+      "rmse": 70.02698218632717,
+      "coverage": 1,
+      "latencyMs": 1177.6558330000007,
+      "took": "Took 0.31 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 5191.609375,
+          "median": 5328.87109375,
+          "high": 5461.8310546875
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 5226.3095703125,
+          "median": 5414.01171875,
+          "high": 5594.0078125
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 5227.7744140625,
+          "median": 5450.0771484375,
+          "high": 5668.443359375
+        }
+      ]
+    },
+    {
+      "seriesId": "M10",
+      "mase": 1.1386613790304523,
+      "rmse": 606.0965152019818,
+      "coverage": 0.16666666666666666,
+      "latencyMs": 1539.8787499999999,
+      "took": "Took 0.30 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 7352.49853515625,
+          "median": 7452.09375,
+          "high": 7557.81103515625
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 7319.89501953125,
+          "median": 7461.31982421875,
+          "high": 7617.1728515625
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 7304.05859375,
+          "median": 7474.33984375,
+          "high": 7679.5234375
+        }
+      ]
+    },
+    {
+      "seriesId": "M11",
+      "mase": 0.3588351718002016,
+      "rmse": 62.95199577320488,
+      "coverage": 1,
+      "latencyMs": 846.7238749999997,
+      "took": "Took 0.22 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 11348.0615234375,
+          "median": 11414.390625,
+          "high": 11474.28125
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 11490.392578125,
+          "median": 11578.291015625,
+          "high": 11657.216796875
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 12286.744140625,
+          "median": 12378.048828125,
+          "high": 12475.3330078125
+        }
+      ]
+    },
+    {
+      "seriesId": "M12",
+      "mase": 0.41029958951271184,
+      "rmse": 28.03566142796356,
+      "coverage": 0.9166666666666666,
+      "latencyMs": 993.7372499999983,
+      "took": "Took 0.25 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 2735.7265625,
+          "median": 2748.138671875,
+          "high": 2761.56787109375
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 2726.08642578125,
+          "median": 2741.0263671875,
+          "high": 2756.9072265625
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 2710.312255859375,
+          "median": 2729.270751953125,
+          "high": 2749.6396484375
+        }
+      ]
+    },
+    {
+      "seriesId": "M13",
+      "mase": 0.4011322861884487,
+      "rmse": 31.016470515035184,
+      "coverage": 1,
+      "latencyMs": 1127.9884590000001,
+      "took": "Took 0.28 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 2142.30712890625,
+          "median": 2151.20068359375,
+          "high": 2160.0595703125
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 2132.810791015625,
+          "median": 2146.9462890625,
+          "high": 2161.267578125
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 2117.738525390625,
+          "median": 2137.1435546875,
+          "high": 2157.462890625
+        }
+      ]
+    },
+    {
+      "seriesId": "M14",
+      "mase": 0.606207015130674,
+      "rmse": 25.909971850263478,
+      "coverage": 1,
+      "latencyMs": 899.5149999999994,
+      "took": "Took 0.30 s",
+      "firstRows": [
+        {
+          "time": "2009-01-01 00:00:00",
+          "column": "value",
+          "low": 4710.994140625,
+          "median": 4729.70654296875,
+          "high": 4747.0751953125
+        },
+        {
+          "time": "2009-02-01 00:00:00",
+          "column": "value",
+          "low": 4758.3974609375,
+          "median": 4782.69140625,
+          "high": 4804.0029296875
+        },
+        {
+          "time": "2009-03-01 00:00:00",
+          "column": "value",
+          "low": 5067.623046875,
+          "median": 5093.908203125,
+          "high": 5119.7109375
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Small sample: 8 series, 12-step horizon. This is an illustrative benchmark, not a leaderboard.",
+    "MASE uses a seasonal naive scale with period 12 on the 108-point training window.",
+    "Coverage is the share of held-out actuals inside the 80% (0.1–0.9) interval.",
+    "Latency includes the public Hugging Face Space round trip; a dedicated endpoint may differ.",
+    "Cost is the list price per successful call at each tier, not GPU cost."
+  ]
+}

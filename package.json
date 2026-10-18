@@ -1,0 +1,21 @@
+{
+  "name": "timestral-benchmark",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Reproducible benchmark of Timestral-209M on public M4 monthly series",
+  "homepage": "https://timestral.org/blog/timestral-benchmark-2026",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharlieLZ/timestral-benchmark.git"
+  },
+  "scripts": {
+    "benchmark": "node run.mjs",
+    "sample": "node sample-output.mjs",
+    "prepare-data": "node prepare-data.mjs"
+  },
+  "dependencies": {
+    "@gradio/client": "^2.7.1"
+  },
+  "license": "MIT"
+}
